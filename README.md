@@ -11,3 +11,5 @@ You don't need to worry about setting this up now or leaving it in all year... I
 6. Stonks.
 
 Feel free to create your own Tricks and add them into the main script. Just follow the formatting and it should work. Also if you create a new trick, upload it here :)
+
+Use the RESET KNOCK.SQL script on your database before next halloween. Otherwise old bases will not allow people to Trick or Treat who knocked last year...
