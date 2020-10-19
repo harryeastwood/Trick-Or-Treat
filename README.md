@@ -3,7 +3,7 @@ It's Halloween soon.... Perhaps some Trick or Treating is in order....
 You don't need to worry about setting this up now or leaving it in all year... It will automatically only give the option to Trick or Treat on Halloween.
 
 ## Instructions
-1. Run the SQL script on your database.
+1. Run the TrickOrTreat.SQL script on your database.
 2. Drop the PBO found in the server folder into your @ExileServer\Addons folder.
 3. Merge/Create as necessary, the files in the client folder with your mission file folder. (#include must go at the top of the config.cpp)
 4. Set up the configuration found in GADD_Apps\TrickOrTreat\Config.cpp and edit the GADD_TreatList.sqf to your liking.
