@@ -4,7 +4,7 @@
 	Author: [GADD]Monkeynutz
 **/
 
-_door = _this;
+_door = _this select 0;
 _uid = getPlayerUID player;
 _flag = player call ExileClient_util_world_getTerritoryAtPosition;
 _buildRights = _flag getVariable ["ExileTerritoryBuildRights", []];
@@ -19,7 +19,7 @@ if (_uid in _buildRights) exitWith
 	["ErrorTitleAndText", ["Trick or Treat!", "You can't knock on your own door!"]] call ExileClient_gui_toaster_addTemplateToast;
 };
 			 
-_door say3D selectRandom ["Knock1", "Knock2"];
+_door say selectRandom ["Knock1", "Knock2"];
 
 uiSleep 3;
 playSound "TrickOrTreat1";
